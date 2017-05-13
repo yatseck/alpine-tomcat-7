@@ -14,3 +14,8 @@ yatsecksch/alpine-tomcat-7```
 * add this directive into Dockerfile:
 ```COPY path/to/your/api.war /srv/apache-tomcat-7.0.77/webapps/api.war```
 * and run your image
+
+#### Credentials to manager:
+```admin / p@$vv0Rd```
+
+It is hardcoded in tomcat-users.xml & copied into container during the build
